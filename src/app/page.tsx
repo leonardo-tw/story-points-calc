@@ -99,3 +99,13 @@ export default function Home() {
     </div>
   );
 }
+
+import StoryPointsCalculator from "./StoryPointsCalculator";
+
+export default function Home() {
+  return (
+    <main className="flex items-center justify-center min-h-screen">
+      <StoryPointsCalculator />
+    </main>
+  );
+}
